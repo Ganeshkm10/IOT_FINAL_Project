@@ -1,0 +1,33 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="ecen5823-IoT-Course-Project-1">
+  <project Name="ecen5823-IoT-Course-Project-1">
+    <configuration
+      Name="Default"
+      inherited_configurations="Simplicity_Configuration_Content" />
+    <configuration
+      Name="Simplicity_Configuration_Content"
+      c_user_include_directories="autogen/"
+      silicon_labs_metadata="eJy1VH9v2jAQ/SrIf04Ql6KyFtFWHbQaUlFRgU5TXUXBPsAj2JHtQCfEd985CaFrUbVOmxQ58cv5frx75w0Z9vqD216nN/oeDkfjbu8u7N91x7fXQ9IijxtGDCz1CgQjrWkUW6gyMkll7KS6fuZxKsDin8enPTzUqeE5ykiUOj0DRWeRc6GYBJyR6lt0zoh3sNQijQEPMtJOjP4B3LX6/QysPC9jZVsFes4YI3Pnkhal6/U6sDKOJjbgekmtpYPcKACuDXjLSpFZdsyZNAelyPYpD/K4gQWXJkGURHwRTlxHq6mcoRNQJ6fHjVpPj2odLM1CrQhQqwczzjNfiVj+5vyCMcOYqlTaUiFJVmplKwlWCybPIvjkV1rYtemrci8ymoq0kRDvd/tEqgeaNbgafQ0fru57V1/ynmHLrFhkLE5lDEgR7bToUMaSa3WLPOH3MsGddD+HLhVS09UJFbCCWCdgKB62dAZ8oUP8DG0qHdBVIzimjGwPp9Dt+8DtS2wSY5UVGF/wOSP14IgRREBxLaSaITQe3dROGbnEyn3pWHtROpqpaAnn/6AjPiR6xWKwQo5vdLqLQsrAaIRPe6pjAWYfvdDmG8OdOVK6N34hawRLmeU68BB6AhM5EC/B1Ejc2oz71q719MCo0I/kMP8POczf5tCmOWOv4UzoAgaRm5fuc/2h+sYWNUG/SSX0+qD+wrU2C4uNBvpuf2nZnn1e5fSUyGGV3t8Nru9Hvd2QvBsnG5+Nn1Eb4eU3dJovHiIjo0mMVxvzv3HZbP26zYa1C9Mojd0HD/qBQoVKEDfIlS2u3LJjxehXS/1m9PoQBzqFVtrImVRRXJipNI4Rxbl3oHxqtcbnxslRo3nW3Fb/Lg7/szj1s7NGvdk8rjfw2tr+AhbiNLk=" />
+    <folder Name="autogen">
+      <file file_name="autogen/gatt_db.c" />
+      <file file_name="autogen/gatt_db.h" />
+    </folder>
+  </project>
+  <configuration
+    Name="Default"
+    inherited_configurations="Simplicity_Configuration_Content" />
+  <configuration
+    BUILD_OPTIONS="ARM GNU"
+    Name="Simplicity_Configuration_Content"
+    arm_architecture="ARM"
+    arm_core_type="Cortex-M33"
+    arm_endian="Little"
+    arm_fpu_type=""
+    arm_target_device_name="EFR32MG22C224F512IM32"
+    arm_target_interface_type="SWD"
+    build_generic_options_file_name="$(StudioDir)/targets/ARMGNU_build_options.xml"
+    build_toolchain_directory="C:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu_arm/10.2_2020q4/bin"
+    debug_start_from_entry_point_symbol="No"
+    debug_target_connection="J-Link"
+    use_compiler_driver="No" />
+</solution>

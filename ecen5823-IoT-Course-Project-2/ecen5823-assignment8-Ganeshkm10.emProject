@@ -1,0 +1,33 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="ecen5823-assignment8-Ganeshkm10">
+  <project Name="ecen5823-assignment8-Ganeshkm10">
+    <configuration
+      Name="Default"
+      inherited_configurations="Simplicity_Configuration_Content" />
+    <configuration
+      Name="Simplicity_Configuration_Content"
+      c_user_include_directories="autogen/"
+      silicon_labs_metadata="eJy1VG1v2jAQ/ivIHyeIKV1biminrrQbUlFRgU5TXUXGNsHDsSPbgU6I/77LC6FrkbpOm4RM8uR8L889d2s06g+GN/3L/vh7OBpPev3bcHDbm9xcjVAHPawJsiI2S8EJ6syocqJO0DSVykt99cRUyoWDLw+PO3hkUssKlCCaehMJjSPqfcinASOo/hqdE5Q5iA1PlYCLBHUTa34I5juDQQ7WnmKlXadEzwghaO590sF4tVoFTio6dQEzMXYODwujQDBjRWZZKzPLr3mbFqDk+XvKgiJu4IRPk4AmlC3Cqb80eiYjcCL0Ubt12KDOyUjHQvt24wvVws0X8UEziBjLvSU8/s39OSGWEF2rdaUGmpw02tUSqFfYIo/gQ3bi0q6LXxR8nhNVJg6UZH43j6i+p13Di/HX8P7irn/xuegaNM3xRc7jTCoBJOHLDh5JJZnRN8AUPMcJvEn/c+RTLg1eHmEulkKZRFgMlx2OBFuYEB5Dl0ov8PIwaGGCNvtT6A2ywN1P0CZCakths4LPCDoImgQBIjQzXOoIoMn4utEm6BNUnpUOtZelg5mmsTj7Jz3JgoJfKAdqZPAPbrdxUBUajODXnRnFhd3FL/X5ynBrDqTujJ9JG8BKaoUSMgg8CUu94M/B1Ep4dTn7nW3z8Z5xwe/JYf4fcpi/zqGLC8ZewrnUuRhSP6/cFwoE/U0cqAJ/k5qb1V4FhitjFw5aLfAbHcZVg3aZVRNUIfuVenc7vLob97eD8kakfIjW2aQ6Cktw5A1b3FMr6VTBiiPZZzjWm+zc5CPbEzOaKv/Oi9lYgUql4NfAlytXb9W1cgHUKw3nFGch9i9YY2UkNVWlmU6VAhSm30N9ADRazeOD1knrtN3e1P8u0PxPA50cfzxtNg9heW1+ARUYOTY=" />
+    <folder Name="autogen">
+      <file file_name="autogen/gatt_db.c" />
+      <file file_name="autogen/gatt_db.h" />
+    </folder>
+  </project>
+  <configuration
+    Name="Default"
+    inherited_configurations="Simplicity_Configuration_Content" />
+  <configuration
+    BUILD_OPTIONS="ARM GNU"
+    Name="Simplicity_Configuration_Content"
+    arm_architecture="ARM"
+    arm_core_type="Cortex-M33"
+    arm_endian="Little"
+    arm_fpu_type=""
+    arm_target_device_name="EFR32MG22C224F512IM32"
+    arm_target_interface_type="SWD"
+    build_generic_options_file_name="$(StudioDir)/targets/ARMGNU_build_options.xml"
+    build_toolchain_directory="C:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu_arm/10.2_2020q4/bin"
+    debug_start_from_entry_point_symbol="No"
+    debug_target_connection="J-Link"
+    use_compiler_driver="No" />
+</solution>

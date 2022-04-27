@@ -1,0 +1,33 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="ecen5823-IoT-Course-Project">
+  <project Name="ecen5823-IoT-Course-Project">
+    <configuration
+      Name="Default"
+      inherited_configurations="Simplicity_Configuration_Content" />
+    <configuration
+      Name="Simplicity_Configuration_Content"
+      c_user_include_directories="autogen/"
+      silicon_labs_metadata="eJy1VGtr2zAU/StBH0djbS2FYtKWLmmZoaGhTjpGVYwi3SRabMlIctIS8t93ZefRtaFQxsDI1vHVua9ztSJp0h/cJt1k+CtLh6Necpf173qj2+uUxORxxYiFwixAMhJPeO7giJFxpXKv9PWzyCsJDv88Pu3h1FRWNCgjvPJmCppOufeZHEeCkaP36IyRQFAYWeWABxnplNb8BuHjfr8GW89Frl28Qc8ZY2TmfRlTulwuI6dyPnaRMAV1jg4aowiEsRAsW5vI6mPeVg2oZL2vRNT4jRz4qox4ycU8G/uu0RM1RRLQp2fHJ+3EDNtdTM1Be+tgKkTNVMriL+oLxixjutXqKI0lcspo1yoxV7BNDNGXsNKNXYe+SfaiLtImaCxH4F0/kaMDrRpcDX9kD1f3ydX3pmPYMCfndQ0nKgcsEO3GNFW5EkbfYpXwuyhxp/xL6iupDF2cUgkLyE0JluJhR6cg5ibDz8xVygNdnETHlJH14RB6/eC4c4ktYqy1ABsSPmfkW/SVEURACyOVniI0Gt60zxi5xMxD6pj7JnU007yA83/uR3CInJgK5ifwjZRbH2TnFo3w6UxMLsHufW90+c5wa44F3Ru/kjSCO4k1KggQMoHlHuRrsLIKt66ufLxtPD0wJvQzMcz+Qwyz9zF0aFOxt3AtcwkD7mc7+kZ9qL2RQ0XQn0pLszyovmxp7Nxhm4F+0F26a84+qt3k7JDDCr2/G1zfD5PtgPRgwqvc10OyCpPoOF5wqTdi/sCt4uMcry8WfuOyWod1XY/kB+F9kiyMEqpTgbzBOrlw1T6R9R+7kuv+" />
+    <folder Name="autogen">
+      <file file_name="autogen/gatt_db.c" />
+      <file file_name="autogen/gatt_db.h" />
+    </folder>
+  </project>
+  <configuration
+    Name="Default"
+    inherited_configurations="Simplicity_Configuration_Content" />
+  <configuration
+    BUILD_OPTIONS="ARM GNU"
+    Name="Simplicity_Configuration_Content"
+    arm_architecture="ARM"
+    arm_core_type="Cortex-M33"
+    arm_endian="Little"
+    arm_fpu_type=""
+    arm_target_device_name="EFR32MG22C224F512IM32"
+    arm_target_interface_type="SWD"
+    build_generic_options_file_name="$(StudioDir)/targets/ARMGNU_build_options.xml"
+    build_toolchain_directory="C:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu_arm/10.2_2020q4/bin"
+    debug_start_from_entry_point_symbol="No"
+    debug_target_connection="J-Link"
+    use_compiler_driver="No" />
+</solution>

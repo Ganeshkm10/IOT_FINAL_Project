@@ -1,0 +1,33 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="ecen5823-assignment9-Ganeshkm10-A9-final">
+  <project Name="ecen5823-assignment9-Ganeshkm10-A9-final">
+    <configuration
+      Name="Simplicity_Configuration_Content"
+      c_user_include_directories="autogen/"
+      silicon_labs_metadata="eJy1VGFv2jAQ/SvIHyeIKV1bQLQVK+2GVFTUQKepriKTmODh2JHtQCfEf985CaFr+dBOm4RM8nK+e3f37jbIH47Gt8Or4eRH4E+mg+FdMLobTG+vfdRFjxuCNEvUikUEdedUGFYnaJZxYbm8fg5FFjEDXx6f9rCvMh0WKEE0sypmEsfU2iCaeSFB9bfogiDnIFFRJhhcJKiXavWThbY7GuVg7TkR0nRL9JwQghbWpl2M1+u1Z7igM+OFKsHG4HFh5LFQaeYsayWz/JrVWQHyKH/PQq+I6xlms9SjKQ2XwcxeKTnnMThh8qTdOm5QY3gsEyZtp/GVSmYWy+So2eh3GnMuqfDiMMzdplHyR5wLQjQhslbrcQn1MlxJU0shcaYLQt4nd+LSrodfZX6RV6zMAGrj/G6fUP1A38b9ybfgoX8/7H8p2gfdM9EyL+icCwbVwldd7HPBQyVvoWTwnKTwxu0v32YRV3h1giO2YkKlTGO4bHDMwqUK4DEwGbcMr469FiZoe5jCYOQC9y6hX4TUVky7hM8JOvKaBAHCZKgiLmOAppObRpugS8jcpQ65l6mDmaQJO/+3zXHRIQDkBcmG8A/+dwFRxQGM4NebKxExvSdSKvaN4c4cqrs3fiF2ACvxFZJwEHhimloWvQQzzeHV5G3o7lSADwwQ/giHxX/gsHjLoYeLir2Gc81HbEztonJfSBGEODUgD/ydy0itD0oxWCu9NNBzht/balx1ak+xmqkKOazd+7vx9f1kuBudAZvTTNh8fDZuRg2FPehbFS4fqOZ0JmDLEfcZjs3Wndt8WN/L9YOe3cSBbjmLbqCCplzPVR/L3VCvVJ0X3YU4vISV5rFjUZrJTAhAYTFY4AtAo9U8PWqdtTrt9rb+d4EW7w10dvq502wew17b/gZhiUSy" />
+    <configuration
+      Name="Default"
+      inherited_configurations="Simplicity_Configuration_Content" />
+    <folder Name="autogen">
+      <file file_name="autogen/gatt_db.c" />
+      <file file_name="autogen/gatt_db.h" />
+    </folder>
+  </project>
+  <configuration
+    Name="Default"
+    inherited_configurations="Simplicity_Configuration_Content" />
+  <configuration
+    BUILD_OPTIONS="ARM GNU"
+    Name="Simplicity_Configuration_Content"
+    arm_architecture="ARM"
+    arm_core_type="Cortex-M33"
+    arm_endian="Little"
+    arm_fpu_type=""
+    arm_target_device_name="EFR32MG22C224F512IM32"
+    arm_target_interface_type="SWD"
+    build_generic_options_file_name="$(StudioDir)/targets/ARMGNU_build_options.xml"
+    build_toolchain_directory="C:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu_arm/10.2_2020q4/bin"
+    debug_start_from_entry_point_symbol="No"
+    debug_target_connection="J-Link"
+    use_compiler_driver="No" />
+</solution>
